@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(55, 55, 55);
+  font-family: monospace;
+  font-weight: 600;
+}
+.wrap .page1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 10px;
+}
+.wrap .page1 .futter {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(217, 217, 217);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  display: flex;
+}
+.wrap .page1 .futter .futter__text {
+  font-size: 18px;
+}
+.wrap .page1 .futter .futter__left {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .page1 .midlle {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.wrap .page1 .midlle .middle__right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .page1 .midlle .middle__right .middle__right__bicycle {
+  width: 100%;
+  height: 68%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(55, 55, 55);
+  padding: 10px;
+}
+.wrap .page1 .midlle .middle__right .middle__right__bicycle .middle__right__bicycle__img {
+  position: absolute;
+  width: 350px;
+  height: 240px;
+}
+.wrap .page1 .midlle .middle__right .middle__right__bicycle .middle__right__bicycle__koleso2 {
+  width: 160px;
+  height: 160px;
+  margin-left: 105px;
+  position: absolute;
+  margin-top: 40px;
+}
+.wrap .page1 .midlle .middle__right .middle__right__bicycle .middle__right__bicycle__koleso {
+  width: 160px;
+  height: 160px;
+  margin-left: -100px;
+  position: absolute;
+  margin-top: 40px;
+}
+.wrap .page1 .midlle .middle__left {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .page1 .midlle .middle__left .middle__left__bnt {
+  border: 1px solid rgb(55, 55, 55);
+  width: 100%;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+}
+.wrap .page1 .top__text {
+  width: 100%;
+  font-size: 36px;
+}
+.wrap .page1 .top__heder {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+  font-size: 18px;
+  padding-right: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap"><div class="page1">
+        <div class="top__text">Fitness</div>
+        <div class="top__heder">
+            <div class="top__heder__btn">Головна</div>
+            <div class="top__heder__btn">Товари</div>
+            <div class="top__heder__btn">Про нас</div>
+            <div class="top__heder__btn">Контакти</div>
+        </div>
+        <div class="midlle">
+            <div class="middle__left">
+                <div class="middle__left__bnt">Ноутбуки</div>
+                <div class="middle__left__bnt">Планшети</div>
+                <div class="middle__left__bnt">Телефони</div>
+                <div class="middle__left__bnt">Телевізори</div>
+                <div class="middle__left__bnt">Побутова техніка</div>
+                <div class="middle__left__bnt">Автотовари</div>
+            </div>
+            <div class="middle__right">
+                <div class="middle__right__bicycle">
+                    <img class="middle__right__bicycle__img" src="./img/bicycle5.jpg" alt="bicycle">
+                    <img class="middle__right__bicycle__koleso" id="middle__right__bicycle__koleso" src="./img/koleso.png" alt="">
+                    <img class="middle__right__bicycle__koleso2" id="middle__right__bicycle__koleso2" src="./img/koleso.png" alt="">
+                </div>
+                <div class="middle__right__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia sapiente iusto consectetur repellat minus dignissimos architecto, recusandae reiciendis culpa amet id pariatur possimus illum eum sit ipsam atque facilis. Quasi eveniet at, beatae atque vero qui quaerat! Quidem accusamus est, nihil architecto ab officia. Unde id doloremque dolores, temporibus optio, quo atque obcaecati voluptatibus in corporis veritatis asperiores sit inventore sequi. Repellat consectetur amet blanditiis exercitationem excepturi molestiae ullam dolores eos delectus fugit. Quae, voluptatum vel. Accusamus, odit voluptate reiciendis laborum distinctio eveniet, repellendus assumenda soluta minus illum placeat magni asperiores repellat hic cupiditate aliquam expedita officiis, doloribus fuga.
+                </div>
+            </div>
+           
+        </div>
+        <div class="futter">
+            <div class="futter__left">
+                <div class="futter__text">Головна</div>
+                <div class="futter__text">Товари</div>
+                <div class="futter__text">Про нас</div>
+                <div class="futter__text">Контакти</div>
+            </div>
+            <div class="futter__text">2021 Creator It academy</div>
+        </div>
+    </div></div>
+    <script>
+        let koleso1 =0
+        let koledo1tr =false
+middle__right__bicycle__koleso.onmouseenter = function(){
+    koledo1tr=true
+
+}
+middle__right__bicycle__koleso.onmouseleave = function(){
+    koledo1tr=false
+
+}
+let koleso2 =0
+        let koledo2tr =false
+middle__right__bicycle__koleso2.onmouseenter = function(){
+    koledo2tr=true
+
+}
+middle__right__bicycle__koleso2.onmouseleave = function(){
+    koledo2tr=false
+
+}
+setInterval(function(){
+    if(koledo1tr==true){
+        koleso1++
+        middle__right__bicycle__koleso.style.transform = 'rotate(' +koleso1+'deg)'
+
+    }
+    if(koledo2tr==true){
+        koleso2++
+        middle__right__bicycle__koleso2.style.transform = 'rotate(' +koleso2+'deg)'
+
+    }
+   
+
+},10)
+    </script>
+</body>
+</html>
